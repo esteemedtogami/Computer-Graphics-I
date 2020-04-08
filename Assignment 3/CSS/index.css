@@ -1,0 +1,73 @@
+/*
+Copyright (C) 2020 Sam Pickell
+Last Updated: March 22, 2020
+Filename: index.css
+
+This is the css file for
+COMP 5460 Computer Graphics I Assignment 3
+*/
+
+#my_body
+{
+    background-color: maroon;
+}
+
+#my_canvas
+{
+    border: solid;
+    background-color: white;
+
+    /* Centering help:
+    https://stackoverflow.com/questions/5127937/how-to-center-canvas-in-html5 */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+#shape_select
+{
+    clear: both;
+    float: left;
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    margin-top: 10px;
+    margin-left: 230px;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+#translate
+{
+    float: right;
+    /*border-style: solid;
+    border-width: 1px;*/
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 220px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    max-width: 800px;
+    max-height: 100px;
+    width: 180px;
+}
+
+#scale_and_rotate
+{
+    clear: both;
+    float: right;
+    /*border-style: solid;
+    border-width: 1px;*/
+    margin-left: auto;
+    margin-right: 220px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    max-width: 800px;
+    max-height: 100px;
+    width: 210px;
+}

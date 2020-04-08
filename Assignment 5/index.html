@@ -1,0 +1,51 @@
+<!--
+Copyright (C) 2020 Sam Pickell
+Last Updated: April 3, 2020
+Filename: index.html
+
+This is the index page for COMP 5460
+Computer Graphics I Assignment 5
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>COMP 5460 Assignment 5</title>
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+
+    <body id="my_body">
+        <canvas id="my_canvas" width="800" height="500"></canvas>
+
+        <div id="ui_ele">
+            <div id="ui_DDA">
+                <input type="number" id="DDA_x0" class="DDA_textbox"> x0</input>
+                <input type="number" id="DDA_y0" class="DDA_textbox"> y0</input>
+                <input type="number" id="DDA_x1" class="DDA_textbox"> x1</input>
+                <input type="number" id="DDA_y1" class="DDA_textbox"> y1</input>
+                <button type="button" onclick="DDA()">DDA Line</button>
+            </div>
+            <div id="ui_Line">
+                <input type="number" id="Line_x0" class="Line_textbox"> x0</input>
+                <input type="number" id="Line_y0" class="Line_textbox"> y0</input>
+                <input type="number" id="Line_x1" class="Line_textbox"> x1</input>
+                <input type="number" id="Line_y1" class="Line_textbox"> y1</input>
+                <button type="button" onclick="MidpointLine()">Midpoint Line</button>
+            </div>
+            <div id="ui_Circle">
+                <input type="number" id="Cir_x" class="Cir_textbox"> x</input>
+                <input type="number" id="Cir_y" class="Cir_textbox"> y</input>
+                <input type="number" id="Cir_rad" class="Cir_textbox"> Radius</input>
+                <button type="button" id="Cir_button"onclick="MidpointCircle()">Circle</button>
+            </div>
+            <div id="ui_Ellipse">
+                <input type="number" id="Ell_a" class="Ell_textbox"> a</input>
+                <input type="number" id="Ell_b" class="Ell_textbox"> b</input>
+                <button type="button" id="Ell_button"onclick="MidpointEllipse()">Ellipse</button>
+            </div>
+        </div>
+    </body>
+
+    <script src="JS/as5.js"></script>
+</html>

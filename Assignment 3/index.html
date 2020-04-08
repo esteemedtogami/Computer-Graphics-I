@@ -1,0 +1,44 @@
+<!--
+Copyright (C) 2020 Sam Pickell
+Last Updated: March 22, 2020
+Filename: index.html
+
+This is the index page for COMP 5460
+Computer Graphics I Assignment 3
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>COMP 5460 Assignment 3</title>
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+
+    <body id="my_body">
+        <canvas id="my_canvas" width="800" height="500"></canvas>
+
+        <div id="shape_select">
+            <button type="button" onclick="draw_shape(draw_line)">Line</button>
+            <button type="button" onclick="draw_shape(draw_circle)">Circle</button>
+            <button type="button" onclick="draw_shape(draw_rectangle)">Rectangle</button>
+            <button type="button" onclick="draw_shape(draw_triangle)">Triangle</button>
+            <button type="button" onclick="draw_shape(draw_polygon)">Polygon</button>
+        </div>
+
+        <div id="translate">
+            <button type="button" onclick="move_up()">Up</button>
+            <button type="button" onclick="move_down()">Down</button>
+            <button type="button" onclick="move_left()">Left</button>
+            <button type="button" onclick="move_right()">Right</button>
+        </div>
+        <div id="scale_and_rotate">
+            <button type="button" onclick="scale_up_shape()">+</button>
+            <button type="button" onclick="scale_down_shape()">-</button>
+            <button type="button" onclick="rotate_left()">Rotate Left</button>
+            <button type="button" onclick="rotate_right()">Rotate Right</button>
+        </div>
+    </body>
+
+    <script src="JS/as3.js"></script>
+</html>

@@ -1,0 +1,104 @@
+/*
+Copyright (C) 2020 Sam Pickell
+Last Updated: April 3, 2020
+Filename: index.css
+
+This is the css file for
+COMP 5460 Computer Graphics I Assignment 5
+*/
+
+#my_body
+{
+    background-color: maroon;
+}
+
+#my_canvas
+{
+    border: solid;
+    background-color: white;
+
+    /* Centering help:
+    https://stackoverflow.com/questions/5127937/how-to-center-canvas-in-html5 */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+#ui_ele
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border-style: solid;*/
+    max-height: 150px;
+    max-width: 675px;
+    overflow: hidden;
+}
+
+#ui_DDA
+{
+    display: inline-block;
+    /*border-style: solid;
+    border-color: green;*/
+    width: 150px;
+}
+
+.DDA_textbox
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#ui_Line
+{
+    display: inline-block;
+    /*border-style: solid;
+    border-color: red;*/
+    width: 150px;
+}
+
+.Line_textbox
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#ui_Circle
+{
+    display: inline-block;
+    /*border-style: solid;
+    border-color: blue;*/
+    width: 175px;
+}
+
+.Cir_textbox
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#Cir_button
+{
+    margin-top: 30px;
+}
+
+#ui_Ellipse
+{
+    display: inline-block;
+    /*border-style: solid;
+    border-color: red;*/
+    width: 175px;
+}
+
+.Ell_textbox
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+#Ell_button
+{
+    margin-top: 60px;
+}
